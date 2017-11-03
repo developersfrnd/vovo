@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+::-webkit-scrollbar-track {
+	background: #ccc;
+}
+::-moz-scrollbar-track {
+	background: #ccc;
+}
+::-webkit-scrollbar-thumb {
+	background: #d43a80;
+}
+::-moz-scrollbar-thumb {
+	background: #d43a80;
+}
+.pre-loader{
+	background: url(../images/pre-loader.svg) #d43a80 no-repeat;
+	background-position: center center;
+}
+.main-wrap{
+	background-color: #a5e4e9;
+}
+.btn-outline.dark:hover{
+	color: #ffffff;
+	border-color: #d43a80;
+	background-color: #d43a80;
+}
+.main-aside{
+	background-color: #a5e4e9;
+	background-image: url(../images/aside-bg-patterns2.png);
+}
+.submit-btn{
+	background-color: #d43a80;
+	color: #ffffff;
+}
+.loading-btn{
+	background: url(../images/pre-loader2.svg) #d43a80 no-repeat;
+	background-position: center center;
+}
+.header-wrap .navbar-nav > li > a:hover, .header-wrap .navbar-nav > li.active > a{
+	border-color: #d43a80;
+}
+.social-icons li a:hover{
+	background-color: #d43a80;
+	border-color: #d43a80;
+}
+.cd-headline.clip .cd-words-wrapper::after{
+	background-color: #d43a80;
+}
+.contact-info-box a:hover{
+	color: #d43a80;
+}
+.vegas-timer-progress{
+	background-color: #d43a80;
+}
+
+@media (max-width: 991px){
+	.stay-in-touch{background-image: url(../images/aside-bg-patterns2.png); background-color: #a5e4e9;}
+}
